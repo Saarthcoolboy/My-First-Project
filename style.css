@@ -129,14 +129,6 @@ a{
     justify-content:space-around;    
 }  
 
-#shape {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: black;
-    position: relative;
-    animation: move 1s infinite;
-  }
 
   @keyframes move {
     0% {
