@@ -129,4 +129,26 @@ a{
     justify-content:space-around;    
 }  
 
+#shape {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    animation: move 1s infinite;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
 
