@@ -130,7 +130,7 @@ a{
 }  
 
 
-  @keyframes move {
+  /*@keyframes move {
     0% {
       transform: translateY(0);
     }
