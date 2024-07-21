@@ -128,3 +128,25 @@ a{
     right: 5%;
     justify-content:space-around;    
 }  
+#semi{
+    position: absolute;
+    top: 97%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 100px 100px 0 0 ;
+    border: 1.5px solid #000;  
+    border-bottom: #fff; 
+    justify-content: center;  
+    align-items: center;     
+}          
+#arrow{
+    font-size: 63px;
+    position: absolute;
+    left:48.6%;
+    top: 95.7%;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    align-items: center;
+}  
